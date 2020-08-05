@@ -1,0 +1,10 @@
+{
+    "apiKey": "AIzaSyA9TGehFlxWjLMda_1uCgLlFrlqcjrmlPo",
+    "authDomain": "timetask-tracker.firebaseapp.com",
+    "databaseURL": "https://timetask-tracker.firebaseio.com",
+    "projectId": "timetask-tracker",
+    "storageBucket": "timetask-tracker.appspot.com",
+    "messagingSenderId": "344954819962",
+    "appId": "1:344954819962:web:978087ac84df6ba6cc72c3",
+    "measurementId": "G-YR78V65K81"
+}

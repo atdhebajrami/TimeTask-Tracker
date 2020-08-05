@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+.UserItemBox {
+    width: 80%;
+    border: 1.5px solid #1A62BA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.UserItemContentBox {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 90%;
+    flex-grow: 1;
+}
+
+.UserItemTitle {
+    width: 100%;
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.UserItemLastMod {
+    color: #6f7781;
+    width: 100%;
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.UserItemHowLong {
+    color: #6f7781;
+    width: 100%;
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.UserItemButtonBox {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    width: auto;
+    min-width: 30px;
+}
+
+.UserItemButtonImageBox {
+    max-width: 20px;
+    min-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.UserItemButtonImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 700px){
+    .UserItemBox {
+        position: relative;
+        width: 50%;
+        border: 1.5px solid #1A62BA;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .UserItemBox {
+        position: relative;
+        width: 30%;
+        max-width: 400px;
+        border: 1.5px solid #1A62BA;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}

@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 app.set('view engine', 'html');
-app.use(express.static(path.join(__dirname, '../frontend/build')));
+app.use(express.static(path.join(__dirname, './frontend/build')));
 app.use(bodyParser.json());
 
 const firebaseConfig = require("./firebaseuser.json");
@@ -417,7 +417,7 @@ const timeDifference = (date1,date2) => {
 }
 
 app.route('/*').get(function(req, res) { 
-    return res.sendFile(path.join(__dirname, '../frontend/build/index.html')); 
+    return res.sendFile(path.join(__dirname, './frontend/build/index.html')); 
 });
 
 app.listen(process.env.PORT || 3000);
